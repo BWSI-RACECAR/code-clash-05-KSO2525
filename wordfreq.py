@@ -28,7 +28,7 @@ class Solution:
     def hi_finder(self,hi_string):
         # type hi_string: string
         # return: int
-        hi_string.lower()
+        hi_string = hi_string.lower()
         count = 0
         # TODO: Write code below to return an int with the solution to the prompt
         for i in range(len(hi_string)-1):
